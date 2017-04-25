@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 gem "rake"
 gem "mail"
-gem 'nas-yahoo_stock'
+gem 'nas-yahoo_stock', :git => 'https://github.com/haifeng/yahoo_stock.git'
 
 # RSpec has to be in both test and development so that rake tasks and generators
 # are available without having to explicitly switch the environment to 'test'
